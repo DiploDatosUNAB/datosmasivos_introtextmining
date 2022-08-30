@@ -1,5 +1,5 @@
 ---
-title: "NubeDePalabras"
+title: "Nube De Palabras"
 author: "Yanina"
 date: "10/12/2020"
 output: html_document
@@ -31,7 +31,7 @@ titulos <- ________("rladies_meetups.csv")
 
 Ahora necesitamos filtrar **stop words** en varios idiomas (porque no solo hay capítulos en Español).
 
-1. _Ejecuten este código tal cual se presenta_ pero _Cambien el chunk de código para que ejecute el código y no muestre resultados._
+1. _Ejecuten este código tal cual se presenta._ 
 
 ```{r}
 idiomas <- list('spanish', 'portuguese', 'french', 'danish', 'dutch', 'finnish', 'german', 'hungarian', 'italian', 'norwegian', 'russian', 'swedish')
@@ -52,7 +52,7 @@ Ahora tenemos que obtener solo palabras, asi que vamos a :
 3. contar la cantidad de palabras
 4. filtar aquellas palabras que tengan menos de 10 ocurrencias
 
-Completa el código para poder obtener el conjunto de datos `palabras` para luego realizar la nube de palabras. En este caso también _Cambien el chunk de código para que ejecute el código y no muestre resultados._
+Completa el código para poder obtener el conjunto de datos `palabras` para luego realizar la nube de palabras. 
 
   
 ```{r}
